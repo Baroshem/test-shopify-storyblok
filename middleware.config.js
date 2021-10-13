@@ -4,12 +4,19 @@ module.exports = {
       location: '@vue-storefront/shopify-api/server',
       configuration: {
         api: {
-          domain: '<SHOPIFY STORE DOMAIN>',
-          storefrontAccessToken: '<SHOPIFY STORE ACCESS TOKEN>'
+          domain: process.env.SHOPIFY_DOMAIN,
+          storefrontAccessToken: process.env.SHOPIFY_ACCESS_TOKEN
         },
         currency: 'USD',
         country: 'US'
       }
+    },
+    sb: {
+      location: '@vue-storefront/storyblok/server',
+      configuration: {
+        token: process.env.STORYBLOK_TOKEN,
+        cacheProvider: 'memory',
+      },
     }
   }
 };

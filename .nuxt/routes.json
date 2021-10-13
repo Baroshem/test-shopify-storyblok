@@ -1,0 +1,320 @@
+[
+  {
+    "name": "Category___en",
+    "path": "/Category",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Category.vue",
+    "chunkName": "pages/Category"
+  },
+  {
+    "name": "checkout___en",
+    "path": "/checkout",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Checkout.vue",
+    "children": [
+      {
+        "path": "billing",
+        "name": "billing___en",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Checkout/Billing.vue"
+      },
+      {
+        "path": "payment",
+        "name": "payment___en",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Checkout/Payment.vue"
+      },
+      {
+        "path": "shipping",
+        "name": "shipping___en",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Checkout/Shipping.vue"
+      },
+      {
+        "path": "thank-you",
+        "name": "thank-you___en",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Checkout/ThankYou.vue"
+      }
+    ]
+  },
+  {
+    "name": "Checkout___en",
+    "path": "/Checkout",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Checkout.vue",
+    "chunkName": "pages/Checkout",
+    "children": [
+      {
+        "name": "Checkout-Billing___en",
+        "path": "Billing",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Checkout/Billing.vue",
+        "chunkName": "pages/Checkout/Billing"
+      },
+      {
+        "name": "Checkout-Payment___en",
+        "path": "Payment",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Checkout/Payment.vue",
+        "chunkName": "pages/Checkout/Payment"
+      },
+      {
+        "name": "Checkout-Shipping___en",
+        "path": "Shipping",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Checkout/Shipping.vue",
+        "chunkName": "pages/Checkout/Shipping"
+      },
+      {
+        "name": "Checkout-ThankYou___en",
+        "path": "ThankYou",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Checkout/ThankYou.vue",
+        "chunkName": "pages/Checkout/ThankYou"
+      }
+    ]
+  },
+  {
+    "name": "ContactUs___en",
+    "path": "/ContactUs",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/ContactUs.vue",
+    "chunkName": "pages/ContactUs"
+  },
+  {
+    "name": "home___de",
+    "path": "/de",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Home.vue"
+  },
+  {
+    "name": "Home___en",
+    "path": "/Home",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Home.vue",
+    "chunkName": "pages/Home"
+  },
+  {
+    "name": "MyAccount___en",
+    "path": "/MyAccount",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/MyAccount.vue",
+    "chunkName": "pages/MyAccount",
+    "children": [
+      {
+        "name": "MyAccount-AdressBook___en",
+        "path": "AdressBook",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/MyAccount/AdressBook.vue",
+        "chunkName": "pages/MyAccount/AdressBook"
+      },
+      {
+        "name": "MyAccount-BillingDetails___en",
+        "path": "BillingDetails",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/MyAccount/BillingDetails.vue",
+        "chunkName": "pages/MyAccount/BillingDetails"
+      },
+      {
+        "name": "MyAccount-LoyaltyCard___en",
+        "path": "LoyaltyCard",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/MyAccount/LoyaltyCard.vue",
+        "chunkName": "pages/MyAccount/LoyaltyCard"
+      },
+      {
+        "name": "MyAccount-MyNewsletter___en",
+        "path": "MyNewsletter",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/MyAccount/MyNewsletter.vue",
+        "chunkName": "pages/MyAccount/MyNewsletter"
+      },
+      {
+        "name": "MyAccount-MyProfile___en",
+        "path": "MyProfile",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/MyAccount/MyProfile.vue",
+        "chunkName": "pages/MyAccount/MyProfile"
+      },
+      {
+        "name": "MyAccount-MyReviews___en",
+        "path": "MyReviews",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/MyAccount/MyReviews.vue",
+        "chunkName": "pages/MyAccount/MyReviews"
+      },
+      {
+        "name": "MyAccount-OrderHistory___en",
+        "path": "OrderHistory",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/MyAccount/OrderHistory.vue",
+        "chunkName": "pages/MyAccount/OrderHistory"
+      },
+      {
+        "name": "MyAccount-ShippingDetails___en",
+        "path": "ShippingDetails",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/MyAccount/ShippingDetails.vue",
+        "chunkName": "pages/MyAccount/ShippingDetails"
+      }
+    ]
+  },
+  {
+    "name": "Product___en",
+    "path": "/Product",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Product.vue",
+    "chunkName": "pages/Product"
+  },
+  {
+    "name": "Category___de",
+    "path": "/de/Category",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Category.vue",
+    "chunkName": "pages/Category"
+  },
+  {
+    "name": "checkout___de",
+    "path": "/de/checkout",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Checkout.vue",
+    "children": [
+      {
+        "path": "billing",
+        "name": "billing___de",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Checkout/Billing.vue"
+      },
+      {
+        "path": "payment",
+        "name": "payment___de",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Checkout/Payment.vue"
+      },
+      {
+        "path": "shipping",
+        "name": "shipping___de",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Checkout/Shipping.vue"
+      },
+      {
+        "path": "thank-you",
+        "name": "thank-you___de",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Checkout/ThankYou.vue"
+      }
+    ]
+  },
+  {
+    "name": "Checkout___de",
+    "path": "/de/Checkout",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Checkout.vue",
+    "chunkName": "pages/Checkout",
+    "children": [
+      {
+        "name": "Checkout-Billing___de",
+        "path": "Billing",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Checkout/Billing.vue",
+        "chunkName": "pages/Checkout/Billing"
+      },
+      {
+        "name": "Checkout-Payment___de",
+        "path": "Payment",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Checkout/Payment.vue",
+        "chunkName": "pages/Checkout/Payment"
+      },
+      {
+        "name": "Checkout-Shipping___de",
+        "path": "Shipping",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Checkout/Shipping.vue",
+        "chunkName": "pages/Checkout/Shipping"
+      },
+      {
+        "name": "Checkout-ThankYou___de",
+        "path": "ThankYou",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Checkout/ThankYou.vue",
+        "chunkName": "pages/Checkout/ThankYou"
+      }
+    ]
+  },
+  {
+    "name": "ContactUs___de",
+    "path": "/de/ContactUs",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/ContactUs.vue",
+    "chunkName": "pages/ContactUs"
+  },
+  {
+    "name": "Home___de",
+    "path": "/de/Home",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Home.vue",
+    "chunkName": "pages/Home"
+  },
+  {
+    "name": "MyAccount___de",
+    "path": "/de/MyAccount",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/MyAccount.vue",
+    "chunkName": "pages/MyAccount",
+    "children": [
+      {
+        "name": "MyAccount-AdressBook___de",
+        "path": "AdressBook",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/MyAccount/AdressBook.vue",
+        "chunkName": "pages/MyAccount/AdressBook"
+      },
+      {
+        "name": "MyAccount-BillingDetails___de",
+        "path": "BillingDetails",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/MyAccount/BillingDetails.vue",
+        "chunkName": "pages/MyAccount/BillingDetails"
+      },
+      {
+        "name": "MyAccount-LoyaltyCard___de",
+        "path": "LoyaltyCard",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/MyAccount/LoyaltyCard.vue",
+        "chunkName": "pages/MyAccount/LoyaltyCard"
+      },
+      {
+        "name": "MyAccount-MyNewsletter___de",
+        "path": "MyNewsletter",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/MyAccount/MyNewsletter.vue",
+        "chunkName": "pages/MyAccount/MyNewsletter"
+      },
+      {
+        "name": "MyAccount-MyProfile___de",
+        "path": "MyProfile",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/MyAccount/MyProfile.vue",
+        "chunkName": "pages/MyAccount/MyProfile"
+      },
+      {
+        "name": "MyAccount-MyReviews___de",
+        "path": "MyReviews",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/MyAccount/MyReviews.vue",
+        "chunkName": "pages/MyAccount/MyReviews"
+      },
+      {
+        "name": "MyAccount-OrderHistory___de",
+        "path": "OrderHistory",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/MyAccount/OrderHistory.vue",
+        "chunkName": "pages/MyAccount/OrderHistory"
+      },
+      {
+        "name": "MyAccount-ShippingDetails___de",
+        "path": "ShippingDetails",
+        "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/MyAccount/ShippingDetails.vue",
+        "chunkName": "pages/MyAccount/ShippingDetails"
+      }
+    ]
+  },
+  {
+    "name": "Product___de",
+    "path": "/de/Product",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Product.vue",
+    "chunkName": "pages/Product"
+  },
+  {
+    "name": "my-account___de",
+    "path": "/de/my-account/:pageName?",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/MyAccount.vue"
+  },
+  {
+    "name": "product___de",
+    "path": "/de/p/:id/:slug",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Product.vue"
+  },
+  {
+    "name": "category___de",
+    "path": "/de/c/:slug_1/:slug_2?/:slug_3?/:slug_4?/:slug_5?",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Category.vue"
+  },
+  {
+    "name": "my-account___en",
+    "path": "/my-account/:pageName?",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/MyAccount.vue"
+  },
+  {
+    "name": "product___en",
+    "path": "/p/:id/:slug",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Product.vue"
+  },
+  {
+    "name": "category___en",
+    "path": "/c/:slug_1/:slug_2?/:slug_3?/:slug_4?/:slug_5?",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Category.vue"
+  },
+  {
+    "name": "home___en",
+    "path": "/",
+    "component": "/Users/jakubandrzejewski/VSF/vsf-platform/test-shopify-storyblok/pages/Home.vue"
+  }
+]

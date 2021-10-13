@@ -18,6 +18,7 @@ jobs:
         run: printf "
           SHOPIFY_ACCESS_TOKEN=${{ secrets.SHOPIFY_ACCESS_TOKEN }}\n
           SHOPIFY_DOMAIN=${{ secrets.SHOPIFY_DOMAIN }}\n
+          STORYBLOK_TOKEN=${{ secrets.STORYBLOK_TOKEN }}\n
           " > .env
       - name: Build and publish docker image
         uses: elgohr/Publish-Docker-Github-Action@master

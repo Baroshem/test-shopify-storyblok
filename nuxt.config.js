@@ -45,7 +45,8 @@ export default {
   },
   loading: { color: '#fff' },
   plugins: [
-    '~/plugins/scrollToTop.client.js'
+    '~/plugins/scrollToTop.client.js',
+    '~/plugins/cms'
   ],
   buildModules: [
     // to core
@@ -56,8 +57,8 @@ export default {
       '@vue-storefront/nuxt',
       {
         useRawSource: {
-          dev: ['@vue-storefront/shopify', '@vue-storefront/core'],
-          prod: ['@vue-storefront/shopify', '@vue-storefront/core']
+          dev: ['@vue-storefront/shopify', '@vue-storefront/core', '@vue-storefront/storyblok'],
+          prod: ['@vue-storefront/shopify', '@vue-storefront/core', '@vue-storefront/storyblok']
         }
       }
     ],
@@ -75,7 +76,10 @@ export default {
     'nuxt-i18n',
     'cookie-universal-nuxt',
     'vue-scrollto/nuxt',
-    '@vue-storefront/middleware/nuxt'
+    '@vue-storefront/middleware/nuxt',
+    ['@vue-storefront/storyblok/nuxt', {
+      jsBridge: 'https://app.storyblok.com/f/storyblok-latest.js?t=cc'
+    }]
   ],
   i18n: {
     currency: 'USD',

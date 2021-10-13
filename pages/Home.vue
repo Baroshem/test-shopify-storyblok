@@ -12,6 +12,9 @@
         :class="hero.className"
       />
     </SfHero>
+
+    <render-content :content="story.content.body" />
+
     <LazyHydrate when-visible>
       <SfBannerGrid :banner-grid="1" class="banner-grid">
         <template v-for="item in banners" v-slot:[item.slot]>
@@ -69,11 +72,14 @@ import {
   productGetters
 } from '@vue-storefront/shopify';
 import {
-  computed
+  computed,
+  onMounted
 } from '@vue/composition-api';
 import { onSSR } from '@vue-storefront/core';
 import MobileStoreBanner from '~/components/MobileStoreBanner.vue';
 import LazyHydrate from 'vue-lazy-hydration';
+import { useContent, storyblokBridge } from '@vue-storefront/storyblok'
+import RenderContent from '~/cms/RenderContent.vue'
 
 export default {
   name: 'Home',
@@ -85,11 +91,20 @@ export default {
       loading: productsLoading
     } = useProduct('relatedProducts');
     const { cart, load: loadCart, addItem: addToCart, isInCart } = useCart();
+    const { search, content } = useContent('home')
+
+    const story = computed(() => content.value)
 
     onSSR(async () => {
       await productsSearch({ limit: 8 });
       await loadCart();
+      await search({ slug: `home?cv=${Math.floor(Date.now()/1000)}` })
     });
+
+    onMounted(() => {
+      storyblokBridge(story.value, ['input', 'published', 'change'])
+    });
+
     return {
       products: computed(() =>
         productGetters.getFiltered(relatedProducts.value, { master: true })
@@ -98,7 +113,8 @@ export default {
       productsLoading,
       productGetters,
       addToCart,
-      isInCart
+      isInCart,
+      story
     };
   },
   components: {
@@ -114,7 +130,8 @@ export default {
     SfArrow,
     SfButton,
     MobileStoreBanner,
-    LazyHydrate
+    LazyHydrate,
+    RenderContent
   },
   // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   data() {
