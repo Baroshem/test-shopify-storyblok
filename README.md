@@ -14,7 +14,7 @@ module.exports = {
       configuration: {
         api: {
           domain: '<SHOPIFY_DOMAIN>',
-          storefrontAccessToken: '<SHOPIFY_ACCESS_TOKEN>'
+          storefrontAccessToken: '<SHOPIFY_STOREFRONT_TOKEN>'
         },
         currency: 'USD',
         country: 'US'

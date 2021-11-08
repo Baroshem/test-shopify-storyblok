@@ -16,7 +16,7 @@ jobs:
       - name: Make .env file
         shell: bash
         run: printf "
-          SHOPIFY_ACCESS_TOKEN=${{ secrets.SHOPIFY_ACCESS_TOKEN }}\n
+          SHOPIFY_STOREFRONT_TOKEN=${{ secrets.SHOPIFY_STOREFRONT_TOKEN }}\n
           SHOPIFY_DOMAIN=${{ secrets.SHOPIFY_DOMAIN }}\n
           STORYBLOK_TOKEN=${{ secrets.STORYBLOK_TOKEN }}\n
           " > .env
