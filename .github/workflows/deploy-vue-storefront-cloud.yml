@@ -50,9 +50,7 @@ jobs:
       - name: Deploy on ${{ secrets.PROJECT_NAME }}.${{ secrets.CLOUD_REGION }}.gcp.storefrontcloud.io
         if: github.ref == 'refs/heads/main'
         run: |
-          curl -s -H 'X-User-Id: ${{ secrets.CLOUD_USERNAME }}' -H 'X-Api-Key: ${{ secrets.CLOUD_PASSWORD }}' -H 'Content-Type: application/json' -X PATCH -d '{
-              "front_version":"${{ github.sha }}"
-          }' https://farmer.storefrontcloud.io/instance/${{ secrets.PROJECT_NAME }}-${{ secrets.CLOUD_REGION }}-gcp-storefrontcloud-io
+          curl --location --request PATCH 'https://api.platform.vuestorefront.io/cloud/instances/deploy' --header 'Content-Type: application/json' --data-raw '{ "cloudUserId": "${{ secrets.CLOUD_USERNAME }}", "cloudUserPassword": "${{ secrets.CLOUD_PASSWORD }}", "versionHash": "${{ github.sha }}", "projectName": "${{ secrets.PROJECT_NAME }}", "cloudRegion": "${{ secrets.CLOUD_REGION }}" }'
       - name: Update deployment status (success)
         if: success()
         uses: chrnorm/deployment-status@releases/v1
