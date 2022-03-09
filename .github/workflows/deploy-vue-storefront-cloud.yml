@@ -15,7 +15,8 @@ jobs:
           node-version: "12.x"
       - name: Make .env file
         shell: bash
-        run: printf "
+        run: >
+          printf "
           SHOPIFY_STOREFRONT_TOKEN=${{ secrets.SHOPIFY_STOREFRONT_TOKEN }}\n
           SHOPIFY_DOMAIN=${{ secrets.SHOPIFY_DOMAIN }}\n
           STORYBLOK_TOKEN=${{ secrets.STORYBLOK_TOKEN }}\n
