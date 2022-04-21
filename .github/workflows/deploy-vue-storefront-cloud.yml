@@ -25,7 +25,7 @@ jobs:
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
           name: ${{ secrets.PROJECT_NAME }}-storefrontcloud-io/vue-storefront:${{ github.sha }}
-          registry: ${{ secrets.DOCKER_REGISTRY_URL }}
+          registry: ${{ secrets.DOCKER_REGISTRY_URL || 'registry.vuestorefront.cloud' }}
           username: ${{ secrets.CLOUD_USERNAME }}
           password: ${{ secrets.CLOUD_PASSWORD }}
           dockerfile: .vuestorefrontcloud/docker/Dockerfile
