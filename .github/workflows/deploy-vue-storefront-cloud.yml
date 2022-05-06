@@ -38,6 +38,8 @@ jobs:
           NPM_REGISTRY: "https://registrynpm.storefrontcloud.io"
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      deployments: write
     needs: build
     steps:
       - uses: chrnorm/deployment-action@releases/v1
