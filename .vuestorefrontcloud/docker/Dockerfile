@@ -8,9 +8,6 @@ ARG NPM_REGISTRY
 
 ENV LAST_COMMIT=${COMMIT}
 
-RUN npm install -g npm-cli-login \
-  && npm-cli-login
-
 WORKDIR /var/www
 
 COPY . .

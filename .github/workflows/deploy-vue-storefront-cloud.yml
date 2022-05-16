@@ -20,6 +20,7 @@ jobs:
           SHOPIFY_STOREFRONT_TOKEN=${{ secrets.SHOPIFY_STOREFRONT_TOKEN }}\n
           SHOPIFY_DOMAIN=${{ secrets.SHOPIFY_DOMAIN }}\n
           STORYBLOK_TOKEN=${{ secrets.STORYBLOK_TOKEN }}\n
+          APP_PORT=3000\n
           " > .env
       - name: Build and publish docker image
         uses: elgohr/Publish-Docker-Github-Action@master
@@ -30,12 +31,6 @@ jobs:
           password: ${{ secrets.CLOUD_PASSWORD }}
           dockerfile: .vuestorefrontcloud/docker/Dockerfile
           buildoptions: "--compress"
-          buildargs: NPM_EMAIL,NPM_PASS,NPM_USER,NPM_REGISTRY
-        env:
-          NPM_EMAIL: ${{ secrets.NPM_EMAIL }}
-          NPM_PASS: ${{ secrets.NPM_PASS }}
-          NPM_USER: ${{ secrets.NPM_USER }}
-          NPM_REGISTRY: "https://registrynpm.storefrontcloud.io"
   deploy:
     runs-on: ubuntu-latest
     permissions:
