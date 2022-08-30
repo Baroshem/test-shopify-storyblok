@@ -1915,6 +1915,17 @@
   dependencies:
     "@types/yargs-parser" "*"
 
+"@vue-storefront/core@2.5.6":
+  version "2.5.6"
+  resolved "https://registry.yarnpkg.com/@vue-storefront/core/-/core-2.5.6.tgz#dfbfce48487a9a4a6b34576fb23d625ed0ebfada"
+  integrity sha512-+nJHlcUdn0hJs0lD4AdxGZzLj3GrI9wXvPw1SFR4i2q0cJDiaCyoX/13e7BuRbJOuI8Cnoe/oK+O9VWZXrvXOQ==
+  dependencies:
+    axios "0.21.1"
+    express "^4.17.1"
+    is-https "^3.0.2"
+    lodash-es "^4.17.15"
+    vue "^2.6.11"
+
 "@vue-storefront/core@^2.3.0", "@vue-storefront/core@^2.3.3":
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/@vue-storefront/core/-/core-2.4.3.tgz#6800769167181d29f29e4065f7b5483a282f77ad"
@@ -9741,9 +9752,9 @@ shebang-regex@^3.0.0:
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
 shell-quote@^1.6.1:
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.2.tgz#67a7d02c76c9da24f99d20808fcaded0e0e04be2"
-  integrity sha512-mRz/m/JVscCrkMyPqHc/bczi3OQHkLTqXHEFu0zDhK/qfv3UcOA4SVmRCLmos4bhjr9ekVQubj/R7waKapmiQg==
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.3.tgz#aa40edac170445b9a431e17bb62c0b881b9c4123"
+  integrity sha512-Vpfqwm4EnqGdlsBFNmHhxhElJYrdfcxPThu+ryKS5J8L/fhAwLazFZtq+S+TWZ9ANj2piSQLGj6NQg+lKPmxrw==
 
 shellwords@^0.1.1:
   version "0.1.1"
