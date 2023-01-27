@@ -1915,6 +1915,17 @@
   dependencies:
     "@types/yargs-parser" "*"
 
+"@vue-storefront/core@2.5.6":
+  version "2.5.6"
+  resolved "https://registry.yarnpkg.com/@vue-storefront/core/-/core-2.5.6.tgz#dfbfce48487a9a4a6b34576fb23d625ed0ebfada"
+  integrity sha512-+nJHlcUdn0hJs0lD4AdxGZzLj3GrI9wXvPw1SFR4i2q0cJDiaCyoX/13e7BuRbJOuI8Cnoe/oK+O9VWZXrvXOQ==
+  dependencies:
+    axios "0.21.1"
+    express "^4.17.1"
+    is-https "^3.0.2"
+    lodash-es "^4.17.15"
+    vue "^2.6.11"
+
 "@vue-storefront/core@^2.3.0", "@vue-storefront/core@^2.3.3":
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/@vue-storefront/core/-/core-2.4.3.tgz#6800769167181d29f29e4065f7b5483a282f77ad"
@@ -10625,9 +10636,9 @@ typescript@~4.2:
   integrity sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==
 
 ua-parser-js@^0.7.28:
-  version "0.7.28"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
-  integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
+  version "0.7.33"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.33.tgz#1d04acb4ccef9293df6f70f2c3d22f3030d8b532"
+  integrity sha512-s8ax/CeZdK9R/56Sui0WM6y9OFREJarMRHqLB2EwkovemBxNQ+Bqu8GAsUnVcXKgphb++ghr/B2BZx4mahujPw==
 
 ufo@^0.7.4, ufo@^0.7.7:
   version "0.7.9"
